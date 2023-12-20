@@ -16,6 +16,7 @@ nav{
     position: -webkit -sticky;
     position: sticky;
     top: 0;
+    z-index: 9999;
 }
 nav ul{
     width: 100%;
@@ -48,7 +49,7 @@ nav li:first-child{
     right: 0;
     height: 100vh;
     width: 250px;
-    z-index: 999;
+    z-index: 9999;
     background-color: rgba(255, 255, 255, 0.267);
     backdrop-filter: blur(10px);
     box-shadow: -10px 0 10px rgba(0,0,0,0.1);
@@ -80,6 +81,7 @@ nav li:first-child{
     justify-content: center;
     flex-wrap: wrap;
     margin-top: 100px;
+    z-index: 9999;
 }
 .card{
     width: 325px;
